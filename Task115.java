@@ -1,6 +1,8 @@
 public class Task115 {
     public static void main(String[] args) {
-        String a = "Wow";
+       // String a = "Wow";
+        String a = new String("Wow");
+        a=a.intern();
         String b = "Wow";
         String c = a + "!";
         String d = c;
